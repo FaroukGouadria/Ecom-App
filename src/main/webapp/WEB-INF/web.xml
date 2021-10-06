@@ -1,0 +1,57 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>addBonreceptionServlet</servlet-name>
+  	<display-name>addBonreceptionServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.admin.servlet.addBonreceptionServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>addlignebonreceptionServlet</servlet-name>
+  	<display-name>addlignebonreceptionServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.admin.servlet.addlignebonreceptionServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>lignefactureServlet</servlet-name>
+  	<display-name>lignefactureServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.admin.servlet.lignefactureServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>carts</servlet-name>
+  	<display-name>carts</display-name>
+  	<description></description>
+  	<servlet-class>com.admin.servlet.carts</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>logoutServlet</servlet-name>
+  	<display-name>logoutServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.admin.servlet.logoutServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>addBonreceptionServlet</servlet-name>
+  	<url-pattern>/addBonreceptionServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>addlignebonreceptionServlet</servlet-name>
+  	<url-pattern>/addlignebonreceptionServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>lignefactureServlet</servlet-name>
+  	<url-pattern>/lignefactureServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>carts</servlet-name>
+  	<url-pattern>/carts</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>logoutServlet</servlet-name>
+  	<url-pattern>/logoutServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
